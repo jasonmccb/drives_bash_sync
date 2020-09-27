@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  app:
+    #image: drives-bash-sync
+    build: .
+    volumes:
+      - D:/:/mnt/d
+      - E:/:/mnt/e
+    stdin_open: true    # docker run -i
+    tty: true           # docker run -t
