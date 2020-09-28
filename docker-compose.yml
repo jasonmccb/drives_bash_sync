@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   app:
-    #image: drives-bash-sync
-    build: .
+    image: jasonmccb/drives_bash_sync
+    #build: .
     volumes:
       - D:/:/mnt/d
       - E:/:/mnt/e
